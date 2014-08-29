@@ -1,0 +1,32 @@
+{
+  "name": "boot2docker-container",
+  "description": "nscale boot2docker container",
+  "keywords": [
+    "nearForm",
+    "nscale",
+    "deployer",
+    "docker",
+    "boot2docker",
+    "container"
+  ],
+  "version": "0.0.1",
+  "license": "Artistic License 2.0",
+  "author": "Peter Elger (http://nearform.com/)",
+  "contributors": [
+    "Peter Elger <elger.peter@gmail.com> (http://peterelger.com/)"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "main": "lib/container",
+  "dependencies": {
+    "bunyan": "~1.0.0",
+    "fs-extra": "~0.11.0",
+    "dockerode": "~2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pelger/nfd-std-containers.git"
+  },
+  "devDependencies": {}
+}
